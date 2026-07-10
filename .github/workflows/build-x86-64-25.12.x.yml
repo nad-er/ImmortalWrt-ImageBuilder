@@ -22,9 +22,9 @@ on:
         default: '1024'
       enable_store:
         description: "集成 store 商店"
-        required: false
+        required: true
         type: boolean
-        default: false
+        default: 'yes'
       include_docker:
         description: |
           是否编译 Docker 插件
