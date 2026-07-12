@@ -61,7 +61,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 #PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
-PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
+#PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 
 
 # 判断是否需要编译 Docker 插件
